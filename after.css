@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,700;1,700&family=Montserrat:ital,wght@0,200;0,300;0,700;1,100;1,700&family=Mooli&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,600;1,6..12,400&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Roboto:wght@300;500;700;900&family=Unica+One&family=Voces&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.after-reg {
+    width: 100%;
+    padding-top: 3rem;
+    background: url(./assets/images/Purple-Lens-Flare-PNG.png) no-repeat;
+    background-color: #150e28;
+    padding-bottom: 4rem;
+    background-size: contain;
+    position: relative;
+    background-blend-mode: hard-light;
+    /* display: none; */
+    height: 100vh;
+  }
+  .success {
+    width: 80%;
+    text-align: center;
+    padding-top: 5rem;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 3rem;
+    border-radius: 5px;
+    border: 1px solid #d434fe;
+    background: rgba(255, 255, 255, 0.01);
+    
+  }
+  .success-img {
+    position: absolute;
+    width: 60%;
+    top: 5%;
+    left: 2%;
+  }
+  .successful-man {
+    position: absolute;
+    top: 5%;
+    left: 34%;
+  }
+  .star-reg2 {
+    position: absolute;
+    top: 4%;
+    width: 3%;
+    right: 10%
+  }
+  .star-reg3 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width:4%;
+  }
+  .star-reg4 {
+    position: absolute;
+    bottom: 4%;
+    right: 10%;
+    width:3%;
+  }
+  .success > h2 {
+    margin-top: 11rem;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1rem;
+  }
+  .success > h3 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 3rem;
+    font-style: normal;
+    line-height: 1.4;
+    font-weight: 500;
+  
+  }
+  
+  .back {
+    padding: 1rem 5.5rem;
+    color: white;
+    flex-shrink: 0;
+    font-size: 1rem;
+    width: 80%;
+    text-decoration: none;
+    margin: 1rem auto;
+    text-align: center;
+    cursor: pointer;
+    font-family: Montserrat;
+    border-radius: 7px;
+    background: linear-gradient(
+      270deg,
+      #903aff 0%,
+      #d434fe 56.42%,
+      #ff26b9 99.99%,
+      #fe34b9 100%
+    );
+  }
+  

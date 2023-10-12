@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,700;1,700&family=Montserrat:ital,wght@0,200;0,300;0,700;1,100;1,700&family=Mooli&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,600;1,6..12,400&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Roboto:wght@300;500;700;900&family=Unica+One&family=Voces&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.register {
+  width: 100%;
+  background: url(./assets/images/Purple-Lens-Flare-PNG.png) no-repeat;
+  background-color: #150e28;
+  padding-bottom: 3rem;
+  background-size: contain;
+  background-blend-mode: hard-light;
+}
+.head-div{
+  position: relative;
+  background: url(./assets/images/Purple-Lens-Flare-PNG.png) #150e28 no-repeat;
+  background-blend-mode: hard-light;
+}
+.regs {
+  width: 80%;
+  padding-top: 2.5rem;
+  margin: 0 auto 1rem;
+  color: white;
+  text-align: left;
+  position: relative;
+}
+.regs > h3 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.inline > p {
+  font-family: montserrat;
+  font-size: 0.89rem;
+}
+.first>h3{
+  font-family: clash display;
+  font-size: 1rem;
+  color: #d434fe;
+  margin-left: 2rem;
+}
+nav{
+  display: none;
+}
+.ecs {
+  margin-bottom: .8rem;
+  width: 6%;
+  margin-top: .2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.reg-img {
+  margin: 3rem auto 1.5rem;
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+.star-gra {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+}
+.inline {
+  display: flex;
+  align-items: last baseline;
+  gap: 2rem;
+}
+.line {
+  width: 30%;
+  height: 1px;
+  background-color: #d434fe;
+  /* animation: walk 5s linear infinite; */
+}
+.walk-1 {
+  width: 10%;
+  position: absolute;
+  right: 18%;
+  top: 23%;
+  animation: walk 5s steps(3) infinite;
+}
+@keyframes walk {
+   100%{
+    transform: translateX(20px);
+   }
+}
+.walk-2 {
+  width: 10%;
+  position: absolute;
+  right: 8%;
+  top: 23%;
+  animation: walk 5s steps(3) infinite;
+  /* transition:all 2s ease; */
+}
+.star-reg {
+  top: 0%;
+  width: 3%;
+  left: 90.5%;
+  position: absolute;
+}
+.star-reg1 {
+  bottom: 20%;
+  width: 3%;
+  right: 1%;
+  position: absolute;
+}
+
+.regs > h1 {
+  margin-top: 1rem;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: start;
+}
+form {
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 1rem auto 1rem;
+}
+input {
+  width: 100%;
+  padding: 0.8rem;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Montserrat;
+  background-color: #150e28;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+label {
+  color: white;
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-style: normal;
+  margin-bottom: -0.6rem;
+  font-weight: 600;
+}
+::placeholder {
+  /* color: #fff; */
+  font-family: Montserrat;
+  font-size: 0.8rem;
+}
+.label-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: montserrat;
+  /* border: 1px solid red; */
+}
+.lab {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.lab > label {
+  font-size: 0.9rem;
+}
+.uncheck{
+  width: 80%;
+  margin-top: .2rem;
+}
+select {
+  margin-top: 0.2rem;
+  width: 100%;
+  border: 1px solid #d434fe;
+  border-radius: 5px;
+  font-family: montserrat;
+  font-size: 0.8rem;
+  background-color: #150e28;
+  color: white;
+  padding: .3rem .1rem;
+}
+.select1 {
+  margin-top: 0.2rem;
+  width: 100% !important;
+  border: 1px solid #d434fe;
+  border-radius: 5px;
+  font-family: montserrat;
+  font-size: 0.8rem;
+  background-color: #150e28;
+  color: white;
+}
+
+.checks {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.checks > input {
+  width: 5%;
+  color: #fe34b9;
+  cursor: pointer;
+}
+.checks > p {
+  width: 100%;
+  font-family: montserrat;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #d434fe;
+}
+.radio {
+  color: #fe34b9; 
+}
+.submit {
+  margin-top: 1rem;
+  padding: 0.9rem 2.5rem;
+  color: white;
+  flex-shrink: 0;
+  font-size: 1rem;
+  width: 50%;
+  margin: 1rem auto 0;
+  text-align: center;
+  cursor: pointer;
+  font-family: Montserrat;
+  border-radius: 7px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+}
+.share {
+  width: 50%;
+  margin: 3rem auto 0.3rem;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.share > h3 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.brands > ul {
+  width: 60%;
+  margin: 1rem auto 0;
+  display: flex;
+  list-style: none;
+  /* gap: .7rem; */
+  justify-content: space-between;
+  align-items: center;
+}
+.brands > ul > li > a > i {
+  font-size: 1.2rem;
+  color: #fff;
+}
+form > p {
+  color: #ff26b9;
+  font-size: 0.6rem;
+  font-family: montserrat;
+  width: 90%;
+  margin: -0.2rem auto 0.7rem;
+}
+.name,
+.phone{
+  color: #ff26b9;
+  font-size: 0.6rem;
+  font-family: montserrat;
+  width: 90%;
+  margin: -0.2rem auto 0.7rem;
+}
+.select1, .select2{
+  font-family: montserrat;
+  color: #fe34b9;
+  border: none;
+  font-size: .6rem;
+  margin-top: .3rem;
+}
+
+@media screen and (min-width: 360px) and (max-width:369px) {
+  .inline {
+    width: 100%;
+    display: flex;
+    align-items: last baseline;
+    gap: 2rem;
+  }
+  .line{
+    width: 25%;
+  }
+  .walk-1{
+    right: 5%;
+    top: 19.5%;
+  }
+  .walk-2{
+    right: 13%;
+    top:  19.5%;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  .walk-1{
+    top: 0%;
+    left: 50%;
+  }
+.head-div{
+  background-size: 100%;
+}
+.first>h3{
+  font-size: 1.5rem;
+}
+.inline>p{
+  font-size: 1.3rem;
+}
+  .walk-2{
+    top: 0%;
+    left: 60%;
+  }
+  .regs>h1{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  label, .lab>label{
+    font-size: 1.3rem;
+  }
+  select{
+    margin-top: .7rem;
+    padding: .7rem 1.5rem;
+  }
+  .submit{
+    width: 100%;
+  }
+  
+  .name, .phone, .email, .topic, .select1, .agree, .select2, .pls{
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (min-width:1200px) {
+  nav {
+    display: flex;
+    background-color: #150e28;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  nav > .navlinks-flex {
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-family: clash display;
+  }
+  .navlinks-flex>a:not(:last-child):hover{
+   padding: .5rem 1rem;
+   background-color: #903aff;
+   border-radius: 5px;
+   transition: all 0.6s ease;
+  }
+  nav > div:nth-child(1) {
+    width: 50%;
+    margin-left: 3rem;
+  }
+  nav > div > h2 > span {
+    color: #d434fe;
+  }
+  nav > div > h2 {
+    font-size: 1.5rem;
+    font-family: Clash Display;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .navlinks-flex > a {
+    text-decoration: none;
+    color: white;
+  }
+ 
+  hr {
+    margin: 0rem auto;
+    border: 0.01px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #351e5e;
+    width: 100%;
+  }
+  .reg {
+    padding: 1rem 2rem !important;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Clash Display;
+    border-radius: 7px;
+    border: 1px solid ; 
+  }
+  .ecs{
+    display: none;
+  }
+  .head-div{
+    height: auto;
+    display: flex;
+    padding-bottom: 0;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    background-color: #150e28;
+    align-items: center;
+    height: fit-content;
+    position: relative;
+  }
+  .first{
+    width: 50%;
+    background:url(./assets/images/Purple-Lens-Flare-PNG.png) #150e28 no-repeat;
+    background-blend-mode: hard-light;
+    background-size: 100%;
+    padding: 3rem;
+  }
+  .first>.reg-img{
+    width: 100%;
+    height: fit-content;
+  }
+  .first>h3{
+    color: #d434fe;
+    position: absolute;
+    right: 37.5%;
+    font-size: 1.8rem;
+    top: 2%;
+  }
+  .register{
+    width: 50%;
+    margin: 3rem;
+    position: sticky;
+  }
+  .line{
+    width: 20%;
+  }
+  .div{
+    width: 100%;
+    background-color: #150e28;
+  }
+  .share{
+    display: none;
+  }
+  .submit{
+    width: 100%;
+  }
+  .walk-1{
+    width: 5%;
+    top: 25%;
+    left: 45%;
+  }
+  .walk-2{
+    width: 5%;
+    top: 25%;
+    left: 53%;
+  }
+  .name, .phone, .email, .topic, .select1, .select2, .uncheck{
+    font-size: .8rem;
+  }
+  select{
+    padding: .6rem 2rem;
+  }
+  form>.pls{
+    font-size: 1rem !important;
+  }
+  .checks>p{
+    font-size: 1rem;
+  }
+  .regs>h1{
+    text-align: left;
+  }
+ 
+}
+@media screen and (min-width:1280px) {
+  .walk-1{
+    width: 6%;
+    left: 60%;
+  }
+  .walk-2{
+    width: 6%;
+    left: 70%;
+  }
+  .first>h3{
+    font-size: 1.5rem;
+  }
+  
+}

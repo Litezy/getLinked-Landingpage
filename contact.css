@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,700;1,700&family=Montserrat:ital,wght@0,200;0,300;0,700;1,100;1,700&family=Mooli&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,600;1,6..12,400&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Roboto:wght@300;500;700;900&family=Unica+One&family=Voces&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.first-sec {
+  position: relative;
+  width: 100%;
+}
+.contact {
+  background: url(./assets/images/Purple-Lens-Flare-PNG.png) no-repeat;
+  color: white;
+  position: relative;
+  padding-bottom: 5rem;
+  background-position: top;
+  background-size: contain;
+  background-color: #150e28;
+  background-blend-mode: hard-light;
+  padding-top: 0rem;
+  /* border: 1px solid red; */
+}
+.fa-instagram:hover{
+  color:#e1306c;
+  transition: all 0.5s ease;
+  transform: scale(.8);
+}
+.fa-twitter:hover{
+  color:#1da1f2;
+  transition: all 0.5s ease;
+  transform: scale(.8);
+}
+.fa-facebook:hover{
+  color:#316FF6;
+  transition: all 0.5s ease;
+  transform: scale(.8);
+}
+.fa-linkedin:hover{
+  color:#0077B5;
+  transition: all 0.5s ease;
+  transform: scale(.8);
+}
+.ecs {
+  position: absolute;
+  top: 3%;
+  left: 4%;
+  width: 8.5%;
+  cursor: pointer;
+}
+.star-2 {
+  position: absolute;
+  width: 4%;
+  mix-blend-mode: hard-light;
+  right: 8%;
+  top: 15%;
+}
+.star-3 {
+  position: absolute;
+  width: 4%;
+  mix-blend-mode: hard-light;
+  right: 4%;
+  bottom: 28%;
+}
+
+.sata-1 {
+  position: absolute;
+  bottom: 22%;
+  left: 12%;
+  width: 3%;
+}
+.contact-form {
+  width: 80%;
+  margin: 5rem auto 1rem;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-form > h2 {
+  color: #d434fe;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  width: 80%;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  word-spacing: 1px;
+}
+.contact-form > h3 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  width: 80%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+.sub-hd{
+  display: none;
+}
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: left;
+  margin: 0 auto;
+}
+input {
+  width: 90%;
+  padding: 0.7rem;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Montserrat;
+  background-color: #150e28;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  font-weight: 500;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+input:active {
+  padding: 0.5rem 0;
+}
+::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.7rem;
+}
+textarea {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0.8rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 80%;
+  color: #fff;
+}
+textarea:active {
+  padding: 0.5rem 0;
+}
+.first-p,
+.second-p,
+.third-p {
+  font-family: montserrat;
+  font-size: 0.8rem;
+  color: red;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 600;
+  margin: -1.5rem auto 1rem;
+}
+.fourth-p {
+  font-family: montserrat;
+  font-size: 0.8rem;
+  color: red;
+  font-weight: 600;
+  width: 90%;
+  margin: 0 auto;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.9rem 2.5rem;
+  color: white;
+  flex-shrink: 0;
+  font-size: 1rem;
+  width: 50%;
+  margin: 1rem auto 0;
+  text-align: center;
+  cursor: pointer;
+  font-family: Montserrat;
+  border-radius: 7px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+}
+.share {
+  width: 50%;
+  margin: 3rem auto 0.3rem;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.share > h3 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.brands > ul {
+  width: 60%;
+  margin: 1rem auto 0;
+  display: flex;
+  list-style: none;
+  /* gap: .7rem; */
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: none;
+}
+.brands > ul > li > a > i {
+  font-size: 1.2rem;
+  color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  nav {
+    display: flex;
+    background-color: #150e28;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  nav > .navlinks-flex {
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-family: clash display;
+  }
+  nav > div:nth-child(1) {
+    width: 50%;
+    margin-left: 3rem;
+  }
+  nav > div > h2 > span {
+    color: #d434fe;
+  }
+  nav > div > h2 {
+    font-size: 1.5rem;
+    font-family: Clash Display;
+    font-weight: 600;
+    color: #fff;
+  }
+  .navlinks-flex > a {
+    text-decoration: none;
+    color: white;
+  }
+  hr {
+    margin: 0rem auto;
+    border: 0.01px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #351e5e;
+    width: 100%;
+  }
+  .reg {
+    padding: 1rem 2rem !important;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Clash Display;
+    border-radius: 7px;
+    background: linear-gradient(
+      270deg,
+      #903aff 0%,
+      #d434fe 56.42%,
+      #ff26b9 99.99%,
+      #fe34b9 100%
+    );
+  }
+  .contact {
+    width: 50%;
+    height: max-content;
+    padding-top: 3rem;
+  }
+  .contact {
+    position: static;
+  }
+  .contact > .share,
+  .ecs {
+    display: none;
+  }
+  .head-div {
+    display: flex;
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+    /* align-items: baseline; */
+  }
+  .sub-hd {
+    padding-top: 3rem;
+    width: 50%;
+    background: url(./assets/images/Purple-Lens-Flare-PNG.png);
+    background-repeat: no-repeat;
+    background-color: #150e28;
+    color: white;
+  text-align: left;
+    padding: 8rem 0 2rem 5rem;
+    background-size: 80%;
+    display: block;
+    background-blend-mode: hard-light;
+  }
+  .sata {
+    left: 9%;
+    position: absolute;
+    width: 1%;
+  }
+  .sub-hd > h1 {
+    color: #d434fe;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+  }
+  .sub-hd > p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sata-1{
+    width: 1.5%;
+    left: 49%;
+    top: 70%;
+  }
+  .sub-hd>.share{
+    /* border: 1px solid red; */
+    text-align: left;
+    margin-left: -.3rem;
+
+  }
+  .sub-hd>.share>.brands>ul{
+    /* border: 1px solid red; */
+    margin-right: 10rem;
+    width: 50%;
+    
+  }
+  .star-2{
+    width: 1.5%;
+    top: 5%;
+  }
+  .star-3{
+    width: 1.5%;
+    top: 80%;
+  }
+
+}
+@media screen and (min-width:820px) and (max-width: 1180px) {
+  .contact{
+    height: 100vh;
+  }
+  
+}
