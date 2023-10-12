@@ -6,5 +6,6 @@ Albeit i didnt get through with my work because i wanted to get my hands dirty a
 I am glad i got to get through to the end of this project as it helped me a lot in gaining more esperience into solving problems through web technology languages and stylesheets.
 This project really helped me improve on my vanilla Css journey.
 Most importantly it helped me with improvements in form validation in Javascript. i hope you find this body of work pleasant and with the experience garnered in this project i know it will propel more greater heights in the future for me.
+In addition, this is for you @Ammy from Stackup! i hope you fancy this as well as it will be my submission for the Html, css and Js challenge(smiles).
 
 i remain grateful to see you come here and read this little write up. Thanks.
