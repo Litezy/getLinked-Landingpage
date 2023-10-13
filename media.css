@@ -50,6 +50,7 @@
   nav > h2 {
     font-size: 1.5rem;
   }
+
   nav {
     padding: 0.4rem 3rem;
     margin-bottom: 1rem;
@@ -59,6 +60,9 @@
     width: 12%;
     height: 8%;
     align-items: center;
+  }
+  .hr-inno{
+    overflow-y: hidden;
   }
   .hr-inno > h2 {
     font-size: 1.8rem;

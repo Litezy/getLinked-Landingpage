@@ -208,6 +208,29 @@ nav > h2 {
   cursor: pointer;
   display: block;
 }
+/* .share{
+  position: relative;
+  padding: 10px 20px;
+  color:#fff;
+  background-color: #0077cc;
+  border: none;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+.share::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #005599;
+  transform: translateY(-100%);
+  
+  transition: transform 0.3s;
+}
+.share:hover::before{
+  transform: translateY(0); */
 
 .hr-inno > h2 {
   position: absolute;
